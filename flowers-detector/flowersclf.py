@@ -247,7 +247,6 @@ def predict_flower(img_path, model, cat_to_name, train_data):
     
     return flower_name, prob
 
-"/content/gdrive/MyDrive/Colab Notebooks/Destination_FolderName/test/*/*"
 def rdmtest(image_path, model, train_data, cat_to_name):
     image_path_arr = random.choices(np.array(glob(image_path)), k=10)
     for image in image_path_arr:
